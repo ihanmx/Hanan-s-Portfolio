@@ -123,18 +123,23 @@ export function About() {
               className="bg-white/80 dark:bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-gray-200 dark:border-white/10 hover:border-[#FFB5DA]/50 transition-all duration-300 shadow-xl"
             >
               <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#FFB5DA] via-[#A8D8EA] to-[#D4A5FF] bg-clip-text text-transparent">
-                MERN & PERN Stack developer & UI/UX Designer
+                Full-Stack Developer (MERN / PERN) & UI/UX Designer
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-                I'm a Software Engineering graduate specializing in Full-stack
-                development and UI/UX design. I build complete web
-                solutions—from designing intuitive user interfaces to
-                implementing robust, scalable backends. My expertise spans the
-                PERN/MERN stack, with strong skills in authentication systems,
-                RESTful APIs, database design, and modern UI frameworks like
-                Material-UI and Tailwind. On the design side, I create
-                user-centered experiences through wireframing, prototyping in
-                Figma, and applying UX research principles.
+                I'm a Software Engineering graduate (First Honors, GPA 4.94/5)
+                specializing in React, Next.js, and TypeScript, with a strong
+                foundation in UI/UX design and modern front-end architecture. I
+                build scalable, responsive applications with reusable component
+                systems, TanStack React Query, Zod, and secure JWT-based API
+                integration.
+              </p>
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
+                On the full-stack side, I ship production-deployed MERN/PERN
+                platforms end-to-end — schema design, RESTful APIs,
+                authentication, and multi-target CI/CD to live infrastructure
+                (Docker, Nginx, PM2, GitHub Actions). On the design side, I
+                create user-centered experiences through wireframing, Figma
+                prototyping, and UX research principles.
               </p>
               {/* <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
                 My approach combines technical excellence with creative

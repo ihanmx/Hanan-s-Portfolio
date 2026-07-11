@@ -13,11 +13,33 @@ export function Experience() {
     // },
 
     {
-      title: "Front-end Developer Internship",
+      title: "Front-end Developer",
+      company: "Huma-volve",
+      period: "Jun 2026 - present",
+      description:
+        "Develop responsive dashboards, authentication flows, and business applications using React, TypeScript, Tailwind CSS, and shadcn/ui. Integrate JWT-secured REST APIs with Axios, TanStack Query, and Zod, building reusable, type-safe UI components while collaborating in Agile sprints.",
+      skills: [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Axios",
+        "TanStack Query",
+        "Zod",
+        "JWT",
+        "REST APIs",
+        "Agile",
+        "Code Reviews",
+        "ClickUp",
+      ],
+    },
+
+    {
+      title: "Front-end Developer & Team Leader",
       company: "Afaaqware",
       period: "Mar 2026 - present",
       description:
-        "Front-end developer internship usign Next,Tailwind,TypeScript, postman and advanced concepts as git flow- atomic design and tech team organization",
+        "Lead the front-end team building SurveyLand, a Next.js/TypeScript survey platform, architecting a feature-based module structure with Atomic Design. Set up centralized authentication, an Axios + React Query API layer, and a reusable UI-state layer adopted across all feature modules, while directing code reviews and Git Flow branching.",
       skills: [
         "Git flow",
         "REST APIs",
@@ -36,9 +58,9 @@ export function Experience() {
     {
       title: "Full-stack Developer Internship",
       company: "Dhallaty",
-      period: "Sep 2025 - march 2026",
+      period: "Sep 2025 - Mar 2026",
       description:
-        "Full-stack developer of Dhallaty platform for lost & found tech services using PERN stack",
+        "Built and led development of a full-stack PERN platform end-to-end — React frontend and Express/PostgreSQL backend — covering authentication, role-based access control, dashboards, and RESTful APIs. Authored 84% of commits (63/75), owning both frontend and backend implementation and deployment.",
       skills: [
         "React",
         "Express",
@@ -57,10 +79,11 @@ export function Experience() {
     },
 
     {
-      title: "Technical Support & UI/UX internship",
-      company: "Eradah Complex",
-      period: "Jan2025 - Mar2025",
-      description: "UI/UX, Data Analysis, Technical Support",
+      title: "IT Support & UI/UX Co-op Training",
+      company: "Eradah Hospital",
+      period: "Jan 2025 - Mar 2025",
+      description:
+        "Provided end-user IT support and assisted with UI/UX design work, applying design-thinking and wireframing fundamentals in a healthcare operations environment.",
       skills: [
         "IT",
         "UI/UX",
