@@ -71,11 +71,12 @@ export function Hero() {
               transition={{ delay: 0.4 }}
               className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
             >
-              Software Engineer with a strong focus on full-stack web
-              development and UI/UX design. Skilled in creating scalable,
-              user-centered applications that combine functionality with clean,
-              modern design. Eager to contribute technical expertise and
-              creative problem-solving in a dynamic, team-driven environment.
+              Full-Stack Developer specializing in React, Next.js, and
+              TypeScript, with a strong foundation in UI/UX design and modern
+              front-end architecture. I build scalable, responsive web
+              applications with reusable component systems, TanStack React Query,
+              and secure API integration — shipping production-deployed products
+              end-to-end from schema design to multi-target CI/CD.
             </motion.p>
 
             <motion.div

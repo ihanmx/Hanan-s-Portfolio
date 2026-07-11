@@ -6,10 +6,52 @@ import apisImage from "@/app/assets/images/apis.jpg";
 import dhallatyImage from "@/app/assets/images/dhallaty.png";
 import tachNoteImage from "@/app/assets/images/techNotes.png";
 import shopImage from "@/app/assets/images/shop.png";
+import surveyLandImage from "@/app/assets/images/surveyLand.png";
+import collabSpaceImage from "@/app/assets/images/collabSpace.png";
 export function Portfolio() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const projects = [
+    {
+      title: "SurveyLand",
+      description:
+        "A SaaS survey management platform with JWT/OTP auth, a 46+ component Atomic-Design library, and full EN/AR internationalization with RTL support.",
+      image: surveyLandImage,
+      tags: [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS 4",
+        "React Query",
+        "Axios",
+        "Zod",
+        "Atomic Design",
+        "JWT/OTP",
+        "next-intl (i18n)",
+        "RTL",
+        "Team Lead",
+      ],
+      url: "#",
+      gradient: "from-[#D4A5FF] to-[#FFB5DA]",
+    },
+    {
+      title: "CollabSpace",
+      description:
+        "A project management platform with a feature-sliced architecture across 7 domains, a Kanban board, drag-and-drop, and calendar filtering.",
+      image: collabSpaceImage,
+      tags: [
+        "React 19",
+        "TypeScript",
+        "Vite",
+        "TanStack React Query",
+        "React Router",
+        "Kanban",
+        "Drag & Drop",
+        "Feature-sliced",
+      ],
+      url: "#",
+      gradient: "from-[#A8D8EA] to-[#FFB5DA]",
+    },
     {
       title: "TechNotes",
       description: "MERN Stack Notes & Ticket Management System",
